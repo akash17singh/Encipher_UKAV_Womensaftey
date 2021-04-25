@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+         <ImageView
+
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:src="@drawable/encypmain"
+                android:layout_marginRight="120dp"
+                android:layout_marginLeft="200dp"
+
+                android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/btnEmergency"
+            android:layout_width="220dp"
+            android:layout_marginLeft="85dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF0000"
+            android:text="Emergency control"/>
+        <Button
+            android:id="@+id/btnStatus"
+            android:layout_width="220dp"
+            android:layout_marginLeft="85dp"
+            android:layout_height="50dp"
+            android:text="Status update"/>
+
+        <Button
+            android:id="@+id/btnTips"
+            android:layout_width="220dp"
+            android:layout_marginLeft="85dp"
+            android:backgroundTint="#FFF4"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:layout_height="50dp"
+            android:text="Tips to escape from threat"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_marginLeft="85dp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_height="50dp"
+            android:text="videos for self defence"/>
+        <Button
+            android:id="@+id/btnLaw"
+            android:layout_width="220dp"
+            android:layout_marginLeft="85dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Laws related to  woman"/>
+
+        <ImageView
+
+            android:layout_width="360dp"
+            android:layout_height="220dp"
+            android:src="@drawable/img_one"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="50dp"
+
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="italic"
+            android:text="As living in a country of diverse languages and cultures;diversification of thoughts also plays an enormous role.
+ As the movement is also going on,most of the people have good thoughts towards women.But our urgent need is to make sure that these good thoughts will be a part of life of all people."/>
+
+
+
+        <ImageView
+
+            android:layout_width="360dp"
+            android:layout_height="220dp"
+            android:src="@drawable/img_two"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="80dp"
+            android:text="Fight like a woman! Because you are powerful in every possible way.
+
+Never go out to be liked by everyone because that will make you compromise. Be yourself; you do you"/>
+
+        <ImageView
+
+            android:layout_width="360dp"
+            android:layout_height="220dp"
+            android:src="@drawable/img_four"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="80dp"
+
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="80dp"
+            android:text="A Woman wants a man to protect her like a daughter, love her like a wife and respect her like a mother."/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:text="app by UKAV team members"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
